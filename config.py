@@ -1,4 +1,5 @@
 import os
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-CHECK_INTERVAL = 10
+ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
+CHECK_INTERVAL = 30
